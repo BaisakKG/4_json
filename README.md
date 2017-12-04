@@ -1,6 +1,6 @@
 # Prettify JSON
 
-Среднемесячная номинальная начисленная заработная плата по профессий в Москве.
+Average monthly nominal accrued wages by occupation in Moscow.
 
 # Quickstart
 
