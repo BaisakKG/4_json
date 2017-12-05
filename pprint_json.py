@@ -7,12 +7,11 @@ def load_data(filepath):
 
 
 def pretty_print_json(json_content):
-    print(json.dumps(json_content, sort_keys=True, indent=4))
+    print(json.dumps(json_content, sort_keys=True, indent=4, ensure_ascii=False))
 
 
 if __name__ == '__main__':
-    #f_json = r'd:\PythonScript\Devman\4_json\data-6784-2017-11-21.json'
-    f_json = sys.argv[1]
-    p_json = load_data(f_json)
-    pretty_print_json(p_json)
+    file_json = sys.argv[1]
+    load_json = load_data(file_json)
+    pretty_print_json(load_json)
     

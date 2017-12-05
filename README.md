@@ -1,17 +1,17 @@
 # Prettify JSON
 
-Average monthly nominal accrued wages by occupation in Moscow.
+This script takes the input to a file with arbitrary data in JSON format and displays its content in the console in an easy-to-read form.
 
 # Quickstart
 
-Example use how module
+Example use as module:
 
 ```python
-from pprint_json from load_data, pretty_print_json
+from pprint_json import load_data, pretty_print_json
 
-f_json = r'd:\PythonScript\Devman\4_json\data-6784-2017-11-21.json'
-p_json = load_data(f_json)
-pretty_print_json(p_json)
+file_json = r'd:\PythonScript\Devman\4_json\data-6784-2017-11-21.json'
+load_json = load_data(file_json)
+pretty_print_json(load_json)
 ```
 
 Example of script launch on Linux, Python 3.5:
@@ -36,7 +36,7 @@ $ python pprint_json.py <path to file>
         "HotelsAndCatering": 35941.7,
         "Manufacturing": 75781.9,
         "Mining": 120491.5,
-        "Month": "\u042f\u043d\u0432\u0430\u0440\u044c",
+        "Month": "Июль",
         "OtherServices": 89174.6,
         "ProfessionalScienceAndTech": 107262.0,
         "PublicMilitarySocialAdministration": 53730.9,
